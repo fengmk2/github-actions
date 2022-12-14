@@ -1,0 +1,44 @@
+{
+  "name": "@artusjs/semantic-release-preset",
+  "version": "0.0.0",
+  "description": "atrusks semantic-release preset",
+  "homepage": "https://github.com/artusjs/semantic-release-preset",
+  "author": "TZ <atian25@qq.com>",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "cov": "c8 npm test",
+    "ci": "npm run cov"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@artus/eslint-config-artus": "^0.0.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.7.14",
+    "c8": "^7.12.0",
+    "eslint": "^8.28.0",
+    "mocha": "^10.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:artusjs/semantic-release-preset.git"
+  },
+  "keywords": [
+    "artus",
+    "artus-cli",
+    "semantic-release",
+    "workflow",
+    "github actions"
+  ],
+  "license": "MIT"
+}

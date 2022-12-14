@@ -1,0 +1,3 @@
+{
+  "extends": "@artus/eslint-config-artus"
+}
